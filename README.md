@@ -1,16 +1,44 @@
-# TwitFlip
+# TwitFlip - Backend
 
-TwitFlip is an app for storing collections of Twitter tweets. Users can log in, search new tweets, create collections, and save tweets to those collection.
+[TwitFlip](http://twitflip.herokuapp.com/) is an app for searching Twitter tweets and storing them in collections. 
 
-### Installing
+[This](https://github.com/LucySuddenly/twitflip) is a link the the frontend repository.
 
-Clone the repository down, run bundle install
+## Motivation
 
-also clone down the [frontend](https://github.com/LucySuddenly/twitflip)
+I wanted to create an app using Twitter's API that used more than one endpoint: both search and conversion of tweets to html blocks.
+
+## Screenshots
+Search
+<img src="https://i.imgur.com/FMwFIUh.png" width="800">
+
+Collections
+<img src="https://i.imgur.com/NjRcnxO.png" width="800">
+
+## Technology Used
+
+- Ruby on Rails
+- Twitter Gem
+- HTTParty
+
+## Features
+
+Users Can:
+- create an account
+- search for tweets with options: positive or negative attitude and number of results
+- create collections
+- save tweets from searches to collections
+- view collections
+
+## Installation
+
+clone the repo and run bundle install
+
+rails s to begin the server and start the TwitFlip server
 
 ## Contributing
 
-Pull requests are welcome!
+Contributions are welcome, submit a pull request!
 
 ## Authors
 
